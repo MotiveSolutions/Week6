@@ -1,0 +1,186 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+.box1 {
+  border: 1px solid black;
+  border-width: 2px;
+  width: 20%;
+  height: 20%;
+  background-color: blue;
+}
+
+.box2 {
+  border: 1px solid black;
+  border-width: 2px;
+  width: 20%;
+  height: 200px;
+  background-color: aqua;
+}
+
+.box3 {
+  border: 1px solid black;
+  border-width: 2px;
+  width: 20%;
+  height: 20%;
+  background-color: brown;
+}
+
+section {
+  padding-bottom: 20px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+/* Assignment page */
+#navbarNav {
+  justify-content: space-evenly;
+  color: aliceblue !important;
+}
+.navbar-nav .nav-link {
+  color: white !important; /* Change text color to white */
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(215, 220, 220) !important;
+}
+
+.navbar-nav .nav-item {
+  justify-content: space-evenly !important;
+  margin-right: 30px;
+  color: white !important;
+  font-size: 18px;
+}
+
+.custom-navbar {
+  background-color: #02474d !important; /* Replace #ff0000 with your desired color */
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.form-control {
+  margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.navbar .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: black;
+  border-color: black;
+  margin-left: -8px;
+  margin-right: 8px;
+}
+
+
+/* Set image size */
+    .carousel-item img {
+        max-height: 450px; /* Adjust the maximum height as needed */
+        width: 100%; /* Ensure the image width spans the carousel container */
+        object-fit: cover; /* Ensure the image covers the entire carousel item */
+    }
+
+    /* Customize carousel caption */
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+        border-radius: 10px; /* Rounded corners */
+        padding: 20px; /* Padding around the caption */
+        color: white; /* Text color */
+    }
+
+    /* Customize carousel control buttons */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 30px;
+        height: 30px;
+        background-size: 100% 100%;
+    }
+
+    /* Hide the default outline on focus */
+    .carousel-control-prev:focus,
+    .carousel-control-next:focus {
+        outline: none;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: auto;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+/* .card-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem; /* Adjust the gap as needed */
+/* } */
+
+/* .card {
+    flex: 1;
+    width: 18rem;
+} */ 
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; /* Adjust the gap as needed */
+    margin: 1rem;
+}
+
+.card {
+    flex: 1 0 250px; /* Minimum width for each card */
+    max-width: 18rem; /* Maximum width for each card */
+    margin-bottom: 1rem; /* Add some space between rows */
+}
+
+.dropdown{
+  background-color: #037782;
+}
+
+
+.footer-text {
+  color: white;
+}
+
+/* Set background color */
+.footer-bg {
+  background-color: #02474d;
+}
+
+
+.fixed-width {
+    min-width: 200px; /* Change this value to whatever minimum width you desire */
+    width: 100%;
+    height: auto;
+    max-width: none;
+}
+
+
+.card .btn{
+  background-color: #068894;
+  border-style: none;
+  align-items: center;
+}
